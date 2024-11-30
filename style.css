@@ -30,3 +30,20 @@ body {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
 }
+.close-icon {
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    font-family: serif;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-open .overlay {
+    display: block;
+}
